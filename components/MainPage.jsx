@@ -110,7 +110,7 @@ const handleCancel2 = () => {
 
       {loadings && <p>Loading...</p>}
       <div className=" flex flex-col gap-2  ">
-        {!loadings && works.length > 0
+        { works.length > 0
           ? works.map((work) => (
               <div
                 key={work._id}
@@ -172,7 +172,7 @@ const handleCancel2 = () => {
                 </div>
               </div>
             ))
-          : !loadings && works.length === 0 && <p>No works found</p>}
+          : works.length === 0 && <p>No works found</p>}
       </div>
     </div>
   );
