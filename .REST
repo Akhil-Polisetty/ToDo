@@ -1,0 +1,16 @@
+###
+POST http://localhost:3000/api/dashboard
+Content-Type: application/json
+
+{
+    "title":"task2",
+    "description":"task2 description"
+}
+
+###
+DELETE  http://localhost:3000/api/dashboard
+Content-Type: application/json
+
+{
+    "title":"task2"
+}
