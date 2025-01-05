@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center bg-slate-950 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] ">
+    <div className="w-full h-full flex flex-col justify-center items-center ">
 
       <Login />
       {/* <Register /> */}

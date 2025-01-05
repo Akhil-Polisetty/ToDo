@@ -93,7 +93,7 @@ const Login = () => {
           <Checkbox><span className="text-white">Remember Me</span></Checkbox>
         </Form.Item>
         <p className="text-center text-white mb-4">
-          Don't have an account? <a href="/register">Register</a>
+          Don't have an account? <a href="/pages/register">Register</a>
         </p>
         <Form.Item label={null}>
           <Button type="primary" htmlType="submit">
