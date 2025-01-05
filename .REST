@@ -1,16 +1,60 @@
 ###
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username":"test2",
+    "email":"test2@gmail.com",
+    "password":"123"
+}
+
+###
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+   
+    "email":"test1@gmail.com",
+    "password":"123"
+}
+
+
+###POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+   
+    "email":"t1@gmail.com",
+    "password":"123"
+}
+
+###
 POST http://localhost:3000/api/dashboard
 Content-Type: application/json
 
 {
+    "email":"t2@gmail.com",
     "title":"task2",
-    "description":"task2 description"
+    "description":"task2 description",
+    "date":"yesterday"
 }
-
 ###
-DELETE  http://localhost:3000/api/dashboard
+POST http://localhost:3000/api/dashboard
 Content-Type: application/json
 
 {
-    "title":"task2"
+    "email":"t2@gmail.com",
+    "title":"task1",
+    "description":"task1 description",
+    "date":"yesterday"
+}
+###
+POST http://localhost:3000/api/dashboard
+Content-Type: application/json
+
+{
+    "email":"t2@gmail.com",
+    "title":"task3",
+    "description":"task3 description",
+    "date":"yesterday"
 }
